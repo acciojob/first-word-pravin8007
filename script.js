@@ -4,10 +4,11 @@ function firstWord(s) {
     const firstSpaceIndex = trimmedString.indexOf(' ');
 
     if (firstSpaceIndex === -1) {
-        return trimmedString;
+        return s;
     } else {
         return trimmedString.slice(0, firstSpaceIndex);
     }
+		
 }
 
 // Do not change the code below
